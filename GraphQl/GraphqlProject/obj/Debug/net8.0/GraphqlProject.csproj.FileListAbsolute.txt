@@ -1,0 +1,276 @@
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\appsettings.Development.json
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\appsettings.json
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\GraphqlProject.exe
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\GraphqlProject.deps.json
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\GraphqlProject.runtimeconfig.json
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\GraphqlProject.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\GraphqlProject.pdb
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\Azure.Core.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\Azure.Identity.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\GraphiQL.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\GraphQL.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\GraphQLParser.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\GraphQL.MicrosoftDI.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\GraphQL.Server.Transports.AspNetCore.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\GraphQL.SystemTextJson.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\Humanizer.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\System.CodeDom.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\System.Memory.Data.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\obj\Debug\net8.0\GraphqlProject.csproj.AssemblyReference.cache
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\obj\Debug\net8.0\GraphqlProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\obj\Debug\net8.0\GraphqlProject.AssemblyInfoInputs.cache
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\obj\Debug\net8.0\GraphqlProject.AssemblyInfo.cs
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\obj\Debug\net8.0\GraphqlProject.csproj.CoreCompileInputs.cache
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\obj\Debug\net8.0\GraphqlProject.MvcApplicationPartsAssemblyInfo.cs
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\obj\Debug\net8.0\GraphqlProject.MvcApplicationPartsAssemblyInfo.cache
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\obj\Debug\net8.0\staticwebassets.build.json
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\obj\Debug\net8.0\staticwebassets.development.json
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\obj\Debug\net8.0\staticwebassets\msbuild.GraphqlProject.Microsoft.AspNetCore.StaticWebAssets.props
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\obj\Debug\net8.0\staticwebassets\msbuild.build.GraphqlProject.props
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GraphqlProject.props
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GraphqlProject.props
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\obj\Debug\net8.0\staticwebassets.pack.json
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\obj\Debug\net8.0\scopedcss\bundle\GraphqlProject.styles.css
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\obj\Debug\net8.0\GraphqlP.29597F36.Up2Date
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\obj\Debug\net8.0\GraphqlProject.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\obj\Debug\net8.0\refint\GraphqlProject.dll
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\obj\Debug\net8.0\GraphqlProject.pdb
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\obj\Debug\net8.0\GraphqlProject.genruntimeconfig.cache
+D:\graph\GraphQl-master\GraphQl\GraphqlProject\obj\Debug\net8.0\ref\GraphqlProject.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\appsettings.Development.json
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\appsettings.json
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\GraphqlProject.exe
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\GraphqlProject.deps.json
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\GraphqlProject.runtimeconfig.json
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\GraphqlProject.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\GraphqlProject.pdb
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\Azure.Core.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\Azure.Identity.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\GraphiQL.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\GraphQL.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\GraphQLParser.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\GraphQL.MicrosoftDI.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\GraphQL.Server.Transports.AspNetCore.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\GraphQL.SystemTextJson.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\Humanizer.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\System.CodeDom.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\System.Memory.Data.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\obj\Debug\net8.0\GraphqlProject.csproj.AssemblyReference.cache
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\obj\Debug\net8.0\GraphqlProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\obj\Debug\net8.0\GraphqlProject.AssemblyInfoInputs.cache
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\obj\Debug\net8.0\GraphqlProject.AssemblyInfo.cs
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\obj\Debug\net8.0\GraphqlProject.csproj.CoreCompileInputs.cache
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\obj\Debug\net8.0\GraphqlProject.MvcApplicationPartsAssemblyInfo.cs
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\obj\Debug\net8.0\GraphqlProject.MvcApplicationPartsAssemblyInfo.cache
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\obj\Debug\net8.0\staticwebassets.build.json
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\obj\Debug\net8.0\staticwebassets.development.json
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\obj\Debug\net8.0\staticwebassets\msbuild.GraphqlProject.Microsoft.AspNetCore.StaticWebAssets.props
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\obj\Debug\net8.0\staticwebassets\msbuild.build.GraphqlProject.props
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GraphqlProject.props
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GraphqlProject.props
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\obj\Debug\net8.0\staticwebassets.pack.json
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\obj\Debug\net8.0\scopedcss\bundle\GraphqlProject.styles.css
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\obj\Debug\net8.0\GraphqlP.29597F36.Up2Date
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\obj\Debug\net8.0\GraphqlProject.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\obj\Debug\net8.0\refint\GraphqlProject.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\obj\Debug\net8.0\GraphqlProject.pdb
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\obj\Debug\net8.0\GraphqlProject.genruntimeconfig.cache
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\obj\Debug\net8.0\ref\GraphqlProject.dll

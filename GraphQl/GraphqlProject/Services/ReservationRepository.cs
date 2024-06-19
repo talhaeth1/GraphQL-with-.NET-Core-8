@@ -35,13 +35,18 @@ namespace GraphqlProject.Services
             //return dbContext.Reservations.ToList<Reservation>();
         }
 
-        /*public Reservation GetReservationById(int id)
+        public Reservation GetReservationById(int id)
         {
             return dbContext.Reservations.Find(id)
                 ?? throw new InvalidOperationException($"Reservation with Id {id} does not exist.");
+        }
+        /*public Category GetCategoryById(int id)
+        {
+            return dbContext.Categories.FirstOrDefault(x => x.Id == id)
+                ??
+                throw new InvalidOperationException($"Category with Id {id} doesn't exist");
         }*/
 
-        
 
         public Reservation UpdateReservation(int reservationId, Reservation reservation)
         {

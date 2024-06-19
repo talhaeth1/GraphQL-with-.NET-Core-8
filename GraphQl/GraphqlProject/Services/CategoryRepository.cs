@@ -34,6 +34,13 @@ namespace GraphqlProject.Services
             return dbContext.Categories.ToList();
         }
 
+        public Category GetCategoryById(int id) 
+        {
+            return dbContext.Categories.FirstOrDefault(x => x.Id == id)
+                ??
+                throw new InvalidOperationException($"Category with Id {id} doesn't exist");
+        }
+
         public Category UpdateCategory(int categoryId, Category category)
         {
             ArgumentNullException.ThrowIfNull(category);

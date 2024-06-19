@@ -1,4 +1,5 @@
-﻿using GraphQL.Types;
+﻿using GraphQL;
+using GraphQL.Types;
 using GraphqlProject.Interfaces;
 using GraphqlProject.Type;
 
@@ -13,13 +14,10 @@ namespace GraphqlProject.Query
                 return reservationRepository.GetReservations();
             });
 
-
-            /*
-            Field<ListGraphType<ReservationType>>("Reservations").Resolve(context =>
+            Field<ReservationType>("Reservations").Arguments(new QueryArguments(new QueryArgument<IntGraphType> { Name = "reservationId" })).Resolve(context =>
             {
-                return reservationRepository.GetReservations();
+                return reservationRepository.GetReservationById(context.GetArgument<int>("reservationId"));
             });
-            */
         }
     }
 }

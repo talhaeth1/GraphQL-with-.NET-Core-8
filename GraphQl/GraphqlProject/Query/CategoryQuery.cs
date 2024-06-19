@@ -1,6 +1,7 @@
 ﻿using GraphQL;
 using GraphQL.Types;
 using GraphqlProject.Interfaces;
+using GraphqlProject.Services;
 using GraphqlProject.Type;
 
 namespace GraphqlProject.Query
@@ -21,6 +22,11 @@ namespace GraphqlProject.Query
             Field<ListGraphType<CategoryType>>("categories").Resolve(context =>
             {
                 return categoryResopistory.GetAllCategories();
+            });
+
+            Field<CategoryType>("category").Arguments(new QueryArguments(new QueryArgument<IntGraphType> { Name = "categoryId" })).Resolve(context =>
+            {
+                return categoryResopistory.GetCategoryById(context.GetArgument<int>("categoryId"));
             });
 
 

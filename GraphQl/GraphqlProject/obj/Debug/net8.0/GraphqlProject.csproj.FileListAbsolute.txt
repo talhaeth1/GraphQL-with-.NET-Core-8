@@ -274,3 +274,4 @@ D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\obj\Debug\net8.0\refint\Gr
 D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\obj\Debug\net8.0\GraphqlProject.pdb
 D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\obj\Debug\net8.0\GraphqlProject.genruntimeconfig.cache
 D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\obj\Debug\net8.0\ref\GraphqlProject.dll
+D:\graph\GraphQl-master - Copy\GraphQl\GraphqlProject\obj\Debug\net8.0\GraphqlProject.sourcelink.json

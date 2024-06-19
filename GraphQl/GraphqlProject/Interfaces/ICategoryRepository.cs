@@ -6,6 +6,7 @@ namespace GraphqlProject.Interfaces
     {
         List<Category> GetAllCategories();
         Category AddCategory(Category category);
+        Category GetCategoryById(int id);
         Category UpdateCategory(int categoryId, Category category);
         void DeleteCategory(int id);
     }

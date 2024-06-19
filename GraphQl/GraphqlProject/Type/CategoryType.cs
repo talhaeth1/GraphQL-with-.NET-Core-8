@@ -19,10 +19,10 @@ namespace GraphqlProject.Type
                 //return new ListGraphType<MenuType>();
                 return menuRepository.GetAllMenus();
             });*/
-            Field<ListGraphType<MenuType>>("Menus").Resolve(context =>
+           /* Field<ListGraphType<MenuType>>("Menus").Resolve(context =>
             {
                 return menuRepository.GetAllMenus().Where(m => m.CategoryId == context.Source.Id);
-            });
+            });*/
 
 
             /*

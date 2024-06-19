@@ -37,15 +37,14 @@ namespace GraphqlProject.Services
 
         public Reservation GetReservationById(int id)
         {
+            /*if we are using primary key then use Find method
             return dbContext.Reservations.Find(id)
-                ?? throw new InvalidOperationException($"Reservation with Id {id} does not exist.");
+                ?? 
+                throw new InvalidOperationException($"Reservation with Id {id} does not exist."); */
+            return dbContext.Reservations.FirstOrDefault(x => x.Id == id)
+                ?? 
+                throw new InvalidOperationException($"Reservation with Id {id} does not exist."); 
         }
-        /*public Category GetCategoryById(int id)
-        {
-            return dbContext.Categories.FirstOrDefault(x => x.Id == id)
-                ??
-                throw new InvalidOperationException($"Category with Id {id} doesn't exist");
-        }*/
 
 
         public Reservation UpdateReservation(int reservationId, Reservation reservation)

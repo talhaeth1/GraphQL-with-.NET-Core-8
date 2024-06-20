@@ -37,7 +37,7 @@ namespace GraphqlProject.Services
 
         public Reservation GetReservationById(int id)
         {
-            /*if we are using primary key then use Find method
+            /*if we are using primary key then use "Find" method
             return dbContext.Reservations.Find(id)
                 ?? 
                 throw new InvalidOperationException($"Reservation with Id {id} does not exist."); */

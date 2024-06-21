@@ -62,6 +62,23 @@ namespace GraphqlProject.Services
                 ?? throw new InvalidOperationException($"Menu with Id {id} does not exist.");
         }
 
+        public List<Menu> GetFilteredMenu(int? minId, int? maxId)
+        {
+            var query = dbContext.Menus
+                 .Include(f => f.Category)
+                 .Include(m => m.Reservations)
+                 .AsQueryable();
+            if (minId.HasValue)
+            {
+                query = query.Where(e => e.Id >= minId.Value);
+            }
+            if (maxId.HasValue) 
+            {
+                query = query.Where(e => e.Id <= maxId.Value);
+            }
+            return query.ToList();
+        }
+
         public Menu UpdateMenu(int menuId, Menu menu)
         {
             ArgumentNullException.ThrowIfNull(menu);

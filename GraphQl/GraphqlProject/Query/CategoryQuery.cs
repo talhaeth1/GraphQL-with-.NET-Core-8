@@ -19,12 +19,16 @@ namespace GraphqlProject.Query
             */
 
 
-            Field<ListGraphType<CategoryType>>("categories").Resolve(context =>
+            Field<ListGraphType<CategoryType>>("categories")
+                .Description("Return Category list")
+                .Resolve(context =>
             {
                 return categoryResopistory.GetAllCategories();
             });
 
-            Field<CategoryType>("category").Arguments(new QueryArguments(new QueryArgument<IntGraphType> { Name = "categoryId" })).Resolve(context =>
+            Field<CategoryType>("category")
+                .Description("Return specific Category list based on Id")
+                .Arguments(new QueryArguments(new QueryArgument<IntGraphType> { Name = "categoryId" })).Resolve(context =>
             {
                 return categoryResopistory.GetCategoryById(context.GetArgument<int>("categoryId"));
             });

@@ -68,14 +68,16 @@ namespace GraphqlProject.Services
                  .Include(f => f.Category)
                  .Include(m => m.Reservations)
                  .AsQueryable();
-            if (minId.HasValue)
+            /*if (minId.HasValue)
             {
                 query = query.Where(e => e.Id >= minId.Value);
             }
             if (maxId.HasValue) 
             {
                 query = query.Where(e => e.Id <= maxId.Value);
-            }
+            }*/
+            query = minId.HasValue ? query.Where(e => e.Id >= minId.Value) : query;
+            query = maxId.HasValue ? query.Where(e => e.Id <= maxId.Value) : query;
             return query.ToList();
         }
 

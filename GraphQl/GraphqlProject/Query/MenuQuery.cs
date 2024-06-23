@@ -13,13 +13,17 @@ namespace GraphqlProject.Query
         public MenuQuery(IMenuRepository menuRepository)
         {
             
-            Field<ListGraphType<MenuType>>("Menus").Resolve(context =>
+            Field<ListGraphType<MenuType>>("Menus")
+                .Description("Return List of Menu")
+                .Resolve(context =>
             {
                 return menuRepository.GetAllMenus();
             });
 
 
-            Field<MenuType>("Menu").Arguments(new QueryArguments(new QueryArgument<IntGraphType> { Name = "menuId"})).Resolve(context =>
+            Field<MenuType>("Menu")
+                .Description("Return Menu details for a specific id")
+                .Arguments(new QueryArguments(new QueryArgument<IntGraphType> { Name = "menuId"})).Resolve(context =>
             {
                 return menuRepository.GetMenuById(context.GetArgument<int>("menuId"));
             });

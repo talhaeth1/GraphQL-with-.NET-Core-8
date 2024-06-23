@@ -9,12 +9,16 @@ namespace GraphqlProject.Query
     {
         public ReservationQuery(IReservationRepository reservationRepository)
         {
-            Field<ListGraphType<ReservationType>>("Reservation").Resolve(context =>
+            Field<ListGraphType<ReservationType>>("Reservation")
+                .Description("Return Reservation list")
+                .Resolve(context =>
             {
                 return reservationRepository.GetReservations();
             });
 
-            Field<ReservationType>("Reservations").Arguments(new QueryArguments(new QueryArgument<IntGraphType> { Name = "reservationId" })).Resolve(context =>
+            Field<ReservationType>("Reservations")
+                .Description("Return Reservation list based on Id")
+                .Arguments(new QueryArguments(new QueryArgument<IntGraphType> { Name = "reservationId" })).Resolve(context =>
             {
                 return reservationRepository.GetReservationById(context.GetArgument<int>("reservationId"));
             });

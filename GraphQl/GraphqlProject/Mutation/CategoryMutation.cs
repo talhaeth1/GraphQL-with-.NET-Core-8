@@ -12,6 +12,7 @@ namespace GraphqlProject.Mutation
         public CategoryMutation(ICategoryRepository categoryRepository)
         {
             Field<CategoryType>("CreateCategory")
+                .Description("Mutation used to create Category")
                 .Arguments(new QueryArguments(new QueryArgument<CategoryInputType>() { Name = "category" }))
                 .Resolve(context =>
                 {
@@ -21,6 +22,7 @@ namespace GraphqlProject.Mutation
 
 
             Field<CategoryType>("UpdateCategory")
+                .Description("Mutation used to Update Category")
                 .Arguments(new QueryArguments(new QueryArgument<IntGraphType>() { Name = "categoryId" }, 
                  new QueryArgument<CategoryInputType>() { Name = "category" }))
                 .Resolve(context =>
@@ -29,7 +31,9 @@ namespace GraphqlProject.Mutation
                 var category = context.GetArgument<Category>("category");
                 return categoryRepository.UpdateCategory(categoryId, category);
             });
-            Field<StringGraphType>("DeleteCategory").Arguments(new QueryArguments(new QueryArgument<IntGraphType>() { Name = "categoryId" })).Resolve(context =>
+            Field<StringGraphType>("DeleteCategory")
+                .Description("Mutation used to Delete Category")
+                .Arguments(new QueryArguments(new QueryArgument<IntGraphType>() { Name = "categoryId" })).Resolve(context =>
             {
                 var categoryId = context.GetArgument<int>("categoryId");
                 categoryRepository.DeleteCategory(categoryId);

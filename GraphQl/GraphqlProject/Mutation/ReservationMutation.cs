@@ -10,18 +10,24 @@ namespace GraphqlProject.Mutation
     {
         public ReservationMutation(IReservationRepository reservationRepository)
         {
-            Field<ReservationType>("CreateReservation").Arguments(new QueryArguments(new QueryArgument<ReservationInputType>() { Name = "reservation" })).Resolve(context =>
+            Field<ReservationType>("CreateReservation")
+                .Description("Mutation used to create Reservation record")
+                .Arguments(new QueryArguments(new QueryArgument<ReservationInputType>() { Name = "reservation" })).Resolve(context =>
             {
                 var reservation = context.GetArgument<Reservation>("reservation");
                 return reservationRepository.AddReservation(reservation);
             });
-            Field<ReservationType>("UpdateReservation").Arguments(new QueryArguments(new QueryArgument<IntGraphType>() { Name = "reservationId" }, new QueryArgument<ReservationInputType>() { Name = "reservation" })).Resolve(context =>
+            Field<ReservationType>("UpdateReservation")
+                .Description("Mutation used for Update Reservation record")
+                .Arguments(new QueryArguments(new QueryArgument<IntGraphType>() { Name = "reservationId" }, new QueryArgument<ReservationInputType>() { Name = "reservation" })).Resolve(context =>
             {
                 var reservationId = context.GetArgument<int>("reservationId");
                 var reservation = context.GetArgument<Reservation>("reservation");
                 return reservationRepository.UpdateReservation(reservationId, reservation);
             });
-            Field<StringGraphType>("DeleteReservation").Arguments(new QueryArguments(new QueryArgument<IntGraphType>() { Name = "reservationId" })).Resolve(context =>
+            Field<StringGraphType>("DeleteReservation")
+                .Description("Mutation used for Delete Reservation record")
+                .Arguments(new QueryArguments(new QueryArgument<IntGraphType>() { Name = "reservationId" })).Resolve(context =>
             {
                 var reservationId = context.GetArgument<int>("reservationId");
                 reservationRepository.DeleteReservation(reservationId);

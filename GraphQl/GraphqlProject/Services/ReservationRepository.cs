@@ -28,7 +28,6 @@ namespace GraphqlProject.Services
 
         public List<Reservation> GetReservations()
         {
-           
             return dbContext.Reservations
                  .Include(r => r.Menu)
                  .ToList();
@@ -45,6 +44,17 @@ namespace GraphqlProject.Services
                 ?? 
                 throw new InvalidOperationException($"Reservation with Id {id} does not exist."); 
         }
+
+
+        /*public List<Reservation> GetFilteredReservation(int? minId, int? maxId)
+        {
+            var query = dbContext.Categories
+                 .AsQueryable();
+        
+            query = minId.HasValue ? query.Where(e => e.Id >= minId.Value) : query;
+            query = maxId.HasValue ? query.Where(e => e.Id <= maxId.Value) : query;
+            return query.ToList();
+        }*/
 
 
         public Reservation UpdateReservation(int reservationId, Reservation reservation)

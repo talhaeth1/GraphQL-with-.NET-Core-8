@@ -13,7 +13,8 @@ namespace GraphqlProject.Mutation
         {
             Field<CategoryType>("CreateCategory")
                 .Description("Mutation used to create Category")
-                .Arguments(new QueryArguments(new QueryArgument<CategoryInputType>() { Name = "category" }))
+                .Arguments(new QueryArguments(
+                    new QueryArgument<CategoryInputType>() { Name = "category" }))
                 .Resolve(context =>
                 {
                     var category = context.GetArgument<Category>("category");

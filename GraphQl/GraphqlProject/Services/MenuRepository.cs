@@ -62,6 +62,32 @@ namespace GraphqlProject.Services
                 ?? throw new InvalidOperationException($"Menu with Id {id} does not exist.");
         }
 
+        public Menu AddMenuWithCategoryId(int categoryId, Menu menu)
+        {
+            ArgumentNullException.ThrowIfNull(menu);
+
+            // Check if the CategoryId exists
+            if (!dbContext.Categories.Any(c => c.Id == categoryId))
+            {
+                throw new InvalidOperationException($"Category with Id {categoryId} does not exist.");
+            }
+
+            // Add the new menu item with the specified CategoryId
+            var newMenu = new Menu
+            {
+                Name = menu.Name,
+                Description = menu.Description,
+                Price = menu.Price,
+                ImageUrl = menu.ImageUrl,
+                CategoryId = categoryId
+            };
+
+            dbContext.Menus.Add(newMenu);
+            dbContext.SaveChanges();
+
+            return newMenu;
+        }
+
         public List<Menu> GetFilteredMenu(int? minId, int? maxId)
         {
             var query = dbContext.Menus
@@ -109,16 +135,29 @@ namespace GraphqlProject.Services
                     menuResult.Description = menu.Description;
                     menuResult.Price = menu.Price;
                     menuResult.ImageUrl = menu.ImageUrl;
-                    menuResult.CategoryId = menu.CategoryId;
+                    //menuResult.CategoryId = menu.CategoryId;
+                    
+                    if(menu.CategoryId != 0)
+                    {
+                        menuResult.CategoryId = menu.CategoryId;
+                    }
 
                     if (menu.Category != null)
                     {
-                        menuResult.Category.Name = menu.Category.Name;
-                        menuResult.Category.ImageUrl = menu.Category.ImageUrl;
+                        // Check if the category exists and update its details
+                        var category = dbContext.Categories
+                            .Find(menuResult.CategoryId);
+                        if (category != null)
+                        {
+                            category.Name = menu.Category.Name;
+                            category.ImageUrl = menu.Category.ImageUrl;
+                        }
+                        
                     }
 
-                    if (menu.Reservations != null)
+                    if (menu.Reservations != null && menu.Reservations.Count > 0)
                     {
+                        // Remove existing reservations and add new ones
                         dbContext.Reservations.RemoveRange(menuResult.Reservations);
                         menuResult.Reservations = menu.Reservations;
                     }

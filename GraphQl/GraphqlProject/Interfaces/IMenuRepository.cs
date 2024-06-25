@@ -7,7 +7,9 @@ namespace GraphqlProject.Interfaces
         List<Menu> GetAllMenus();
         Menu GetMenuById(int id);
         List<Menu> GetFilteredMenu(int? minId, int? maxId);
+        
         Menu AddMenuItem(Menu menu);
+        Menu AddMenuWithCategoryId(int categoryId, Menu menu);
         Menu UpdateMenu(int menuId, Menu menu);
         void DeleteMenu(int menuId);
     }

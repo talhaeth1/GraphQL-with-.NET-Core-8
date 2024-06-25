@@ -45,6 +45,23 @@ namespace GraphqlProject.Services
                 throw new InvalidOperationException($"Reservation with Id {id} does not exist."); 
         }
 
+        public Reservation AddReservationWithMenuId(int menuId, Reservation reservation)
+        {
+            ArgumentNullException.ThrowIfNull(reservation);
+            //check if menuId exist
+            if(!dbContext.Menus.Any(m => m.Id == menuId))
+            {
+                throw new InvalidOperationException(
+                    $"Menu with Id {menuId} does not exist."
+                );
+            }
+            //add new reservation with specific MenuId
+            reservation.MenuId = menuId;
+            dbContext.Reservations.Add(reservation);
+            dbContext.SaveChanges();
+            return reservation;
+        }
+
 
         /*public List<Reservation> GetFilteredReservation(int? minId, int? maxId)
         {
@@ -75,5 +92,7 @@ namespace GraphqlProject.Services
             dbContext.SaveChanges();
             return reservation;
         }
+
+        
     }
 }

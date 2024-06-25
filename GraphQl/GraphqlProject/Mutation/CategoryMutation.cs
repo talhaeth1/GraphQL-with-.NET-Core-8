@@ -27,19 +27,19 @@ namespace GraphqlProject.Mutation
                 .Arguments(new QueryArguments(new QueryArgument<IntGraphType>() { Name = "categoryId" }, 
                  new QueryArgument<CategoryInputType>() { Name = "category" }))
                 .Resolve(context =>
-            {
-                var categoryId = context.GetArgument<int>("categoryId");
-                var category = context.GetArgument<Category>("category");
-                return categoryRepository.UpdateCategory(categoryId, category);
-            });
+                {
+                    var categoryId = context.GetArgument<int>("categoryId");
+                    var category = context.GetArgument<Category>("category");
+                    return categoryRepository.UpdateCategory(categoryId, category);
+                });
             Field<StringGraphType>("DeleteCategory")
                 .Description("Mutation used to Delete Category")
                 .Arguments(new QueryArguments(new QueryArgument<IntGraphType>() { Name = "categoryId" })).Resolve(context =>
-            {
-                var categoryId = context.GetArgument<int>("categoryId");
-                categoryRepository.DeleteCategory(categoryId);
-                return $"The category against this Id {categoryId} has been deleted.";
-            });
+                {
+                    var categoryId = context.GetArgument<int>("categoryId");
+                    categoryRepository.DeleteCategory(categoryId);
+                    return $"The category against this Id {categoryId} has been deleted.";
+                });
         }
     }
 }

@@ -15,6 +15,5 @@ namespace GraphqlProject.Interfaces
         Reservation UpdateReservation(int reservationId, Reservation reservation);
         void DeleteReservation(int id);
         void DeleteReservationsByMenuId(int menuId);
-        //void AddMultiReservationsWithMenuId(int menuId, List<Reservation> reservations);
     }
 }

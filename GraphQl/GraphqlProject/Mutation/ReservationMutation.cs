@@ -36,13 +36,13 @@ namespace GraphqlProject.Mutation
                 });
 
             Field<StringGraphType>("DeleteReservationByMenuId")
-             .Description("Mutation used to delete all Reservations for a specific MenuId")
-             .Arguments(new QueryArguments(new QueryArgument<IntGraphType> { Name = "menuId" })).Resolve(context =>
-             {
-                 var menuId = context.GetArgument<int>("menuId");
-                 reservationRepository.DeleteReservationsByMenuId(menuId);
-                 return $"All reservations against MenuId {menuId} have been deleted.";
-             });
+                .Description("Mutation used to delete all Reservations for a specific MenuId")
+                .Arguments(new QueryArguments(new QueryArgument<IntGraphType> { Name = "menuId" })).Resolve(context =>
+                {
+                    var menuId = context.GetArgument<int>("menuId");
+                    reservationRepository.DeleteReservationsByMenuId(menuId);
+                    return $"All reservations against MenuId {menuId} have been deleted.";
+                });
 
             Field<ListGraphType<ReservationType>>("AddReservationWithMenuId")
                 .Description("Mutaiton used to create a reservation with a spcific menu id")
@@ -69,16 +69,16 @@ namespace GraphqlProject.Mutation
             )
             .Resolve(context =>
             {
+                var menuId = context.GetArgument<int>("menuId");
                 try
                 {
-                    var menuId = context.GetArgument<int>("menuId");
                     var reservations = context.GetArgument<List<Reservation>>("reservations");
                     var addedReservations = reservationRepository.AddMultiReservationsWithMenuId(menuId, reservations);
                     return addedReservations;
                 }
                 catch (Exception ex)
                 {
-                    context.Errors.Add(new ExecutionError("An error occurred while adding reservations.", ex));
+                    context.Errors.Add(new ExecutionError($"An error occurred while adding reservations or MenuId = {menuId} doen't exist.", ex));
                     return null;
                 }
             });

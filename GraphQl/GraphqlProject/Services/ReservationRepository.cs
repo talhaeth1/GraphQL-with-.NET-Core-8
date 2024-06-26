@@ -73,8 +73,15 @@ namespace GraphqlProject.Services
         public List<Reservation> AddMultiReservationsWithMenuId(int menuId, List<Reservation> multiReservations)
         {
             ArgumentNullException.ThrowIfNull(multiReservations);
+            if (!dbContext.Menus.Any(m => m.Id == menuId))
+            {
+                throw new InvalidOperationException(
+                    $"Menu with Id {menuId} does not exist."
+                );
+            }
             foreach (var reservation in multiReservations)
             {
+               
                 reservation.MenuId = menuId;
                 dbContext.Reservations.Add(reservation);
             }

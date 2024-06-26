@@ -1,4 +1,5 @@
-﻿using GraphqlProject.Data;
+﻿using System.Data.Common;
+using GraphqlProject.Data;
 using GraphqlProject.Interfaces;
 using GraphqlProject.Models;
 using Microsoft.EntityFrameworkCore;
@@ -23,6 +24,14 @@ namespace GraphqlProject.Services
         {
             var reservation = dbContext.Reservations.Find(id) ?? throw new InvalidOperationException($"Reservation with id {id} doesn't exist.");
             dbContext.Reservations.Remove(reservation);
+            dbContext.SaveChanges();
+        }
+
+        public void DeleteReservationsByMenuId(int menuId) 
+        {
+            var reservations = dbContext.Reservations
+                .Where(r => r.MenuId == menuId).ToList();
+            dbContext.Reservations.RemoveRange(reservations);
             dbContext.SaveChanges();
         }
 
@@ -61,7 +70,17 @@ namespace GraphqlProject.Services
             dbContext.SaveChanges();
             return reservation;
         }
-
+        public List<Reservation> AddMultiReservationsWithMenuId(int menuId, List<Reservation> multiReservations)
+        {
+            ArgumentNullException.ThrowIfNull(multiReservations);
+            foreach (var reservation in multiReservations)
+            {
+                reservation.MenuId = menuId;
+                dbContext.Reservations.Add(reservation);
+            }
+            dbContext.SaveChanges();
+            return multiReservations;
+        }
 
         /*public List<Reservation> GetFilteredReservation(int? minId, int? maxId)
         {
@@ -92,7 +111,5 @@ namespace GraphqlProject.Services
             dbContext.SaveChanges();
             return reservation;
         }
-
-        
     }
 }

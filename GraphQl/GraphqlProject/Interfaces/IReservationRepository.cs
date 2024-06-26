@@ -1,4 +1,5 @@
 ﻿using GraphqlProject.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace GraphqlProject.Interfaces
 {
@@ -10,8 +11,10 @@ namespace GraphqlProject.Interfaces
 
         Reservation AddReservation(Reservation reservation);
         Reservation AddReservationWithMenuId(int menuId, Reservation reservation);
-
+        List<Reservation> AddMultiReservationsWithMenuId(int menuId, List<Reservation> multiReservations);
         Reservation UpdateReservation(int reservationId, Reservation reservation);
         void DeleteReservation(int id);
+        void DeleteReservationsByMenuId(int menuId);
+        //void AddMultiReservationsWithMenuId(int menuId, List<Reservation> reservations);
     }
 }

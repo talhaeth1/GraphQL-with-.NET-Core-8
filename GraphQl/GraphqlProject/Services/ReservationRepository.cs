@@ -89,15 +89,15 @@ namespace GraphqlProject.Services
             return multiReservations;
         }
 
-        /*public List<Reservation> GetFilteredReservation(int? minId, int? maxId)
+        public List<Reservation> GetFilteredReservation(int? minId, int? maxId)
         {
-            var query = dbContext.Categories
+            var query = dbContext.Reservations
                  .AsQueryable();
         
             query = minId.HasValue ? query.Where(e => e.Id >= minId.Value) : query;
             query = maxId.HasValue ? query.Where(e => e.Id <= maxId.Value) : query;
             return query.ToList();
-        }*/
+        }
 
 
         public Reservation UpdateReservation(int reservationId, Reservation reservation)

@@ -7,7 +7,7 @@ namespace GraphqlProject.Interfaces
     {
         List<Reservation> GetReservations();
         Reservation GetReservationById(int id);
-        //List<Reservation> GetFilteredReservation(int? minId, int? maxId);
+        List<Reservation> GetFilteredReservation(int? minId, int? maxId);
 
         Reservation AddReservation(Reservation reservation);
         Reservation AddReservationWithMenuId(int menuId, Reservation reservation);

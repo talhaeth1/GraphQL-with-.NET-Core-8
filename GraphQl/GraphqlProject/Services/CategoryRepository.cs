@@ -41,7 +41,7 @@ namespace GraphqlProject.Services
                 throw new InvalidOperationException($"Category with Id {id} doesn't exist");
         }
 
-        /*public List<Category> GetFilteredCategory(int? minId, int? maxId)
+        public List<Category> GetFilteredCategory(int? minId, int? maxId)
         {
             var query = dbContext.Categories
                  .AsQueryable();
@@ -49,7 +49,7 @@ namespace GraphqlProject.Services
             query = minId.HasValue ? query.Where(e => e.Id >= minId.Value) : query;
             query = maxId.HasValue ? query.Where(e => e.Id <= maxId.Value) : query;
             return query.ToList();
-        }*/
+        }
 
         public Category UpdateCategory(int categoryId, Category category)
         {

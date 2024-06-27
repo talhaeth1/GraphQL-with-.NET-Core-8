@@ -33,7 +33,7 @@ namespace GraphqlProject.Query
                     return categoryResopistory.GetCategoryById(context.GetArgument<int>("categoryId"));
                 });
 
-            /*Field<ListGraphType<CategoryType>>("filteredCategoty")
+            Field<ListGraphType<CategoryType>>("filteredCategoty")
              .Description("Returns all the Category or filtered menus based on provided criteria")
              .Arguments(new QueryArguments(
                  new QueryArgument<IntGraphType> { Name = "minId", Description = "Minimum Menu ID" },
@@ -44,7 +44,7 @@ namespace GraphqlProject.Query
                  var minId = context.GetArgument<int?>("minId");
                  var maxId = context.GetArgument<int?>("maxId");
                  return categoryResopistory.GetFilteredCategory(minId, maxId);
-             });*/
+             });
         }
     }
 }
